@@ -18,13 +18,6 @@ set $term kitty
 # Your preferred application launcher
 set $menu wofi
 
-### Output configuration
-#
-# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-#
-# Example configuration:
-#
 output HDMI-A-1 resolution 3840x2160@240Hz pos 0 960
 output DP-1 resolution 3840x2160@59.997Hz pos 3840 0 transform 270
 output HDMI-A-1 bg ~/.local/share/wallpapers/blackhole.jpg fill
